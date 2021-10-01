@@ -1,0 +1,238 @@
+@font-face
+{
+   font-family: BebasNeue-Regular;
+
+   src: url("../fonts/BebasNeue-Regular/BebasNeue-Regular.eot") format("embedded-opentype"),
+        url("../fonts/BebasNeue-Regular/BebasNeue-Regular.woff") format("woff"),
+        url("../fonts/BebasNeue-Regular/BebasNeue-Regular.ttf") format("truetype"),
+        url("../fonts/BebasNeue-Regular/BebasNeue-Regular.svg") format("svg");
+
+}
+
+@font-face
+{
+   font-family: CovesLight;
+
+   src: url("../fonts/CovesLight/CovesLight.eot") format("embedded-opentype"),
+        url("../fonts/CovesLight/CovesLight.woff") format("woff"),
+        url("../fonts/CovesLight/CovesLight.ttf") format("truetype"),
+        url("../fonts/CovesLight/CovesLight.svg") format("svg");
+
+}
+
+@font-face
+{
+   font-family: Arnold-Thin;
+
+   src: url("../fonts/Arnold-Thin/Arnold-Thin.eot") format("embedded-opentype"),
+        url("../fonts/Arnold-Thin/Arnold-Thin.woff") format("woff"),
+        url("../fonts/Arnold-Thin/Arnold-Thin.ttf") format("truetype"),
+        url("../fonts/Arnold-Thin/Arnold-Thin.svg") format("svg");
+
+}
+@font-face
+{
+   font-family: Iconic-Light-trial;
+
+   src: url("../fonts/Iconic-Light-trial/Iconic-Light-trial.eot") format("embedded-opentype"),
+        url("../fonts/Iconic-Light-trial/Iconic-Light-trial.woff") format("woff"),
+        url("../fonts/Iconic-Light-trial/Iconic-Light-trial.ttf") format("truetype"),
+        url("../fonts/Iconic-Light-trial/Iconic-Light-trial.svg") format("svg");
+
+}
+@font-face
+{
+   font-family: CovesBold;
+
+   src: url("../fonts/CovesBold/CovesBold.eot") format("embedded-opentype"),
+        url("../fonts/CovesBold/CovesBold.woff") format("woff"),
+        url("../fonts/CovesBold/CovesBold.ttf") format("truetype"),
+        url("../fonts/CovesBold/CovesBold.svg") format("svg");
+
+}
+@font-face
+{
+   font-family: SlimJoe;
+
+   src: url("../fonts/SlimJoe/SlimJoe.eot") format("embedded-opentype"),
+        url("../fonts/SlimJoe/SlimJoe.woff") format("woff"),
+        url("../fonts/SlimJoe/SlimJoe.ttf") format("truetype"),
+        url("../fonts/SlimJoe/SlimJoe.svg") format("svg");
+
+}
+
+
+body{
+    background-color: #000000;
+
+    margin: 0;
+}
+
+main{
+    margin: 0 auto;
+    font-family: BebasNeue-Regular;
+    color: rgb(255, 255, 255);
+}
+
+
+
+header{
+    font-family: BebasNeue-Regular;
+
+}
+
+
+
+.container{
+    position: fixed;
+    z-index: 1;
+    
+}
+
+#logo{
+    margin-left: 4.58333% ;
+    
+}
+#imgLogo{
+    width: 25%;
+    margin-top: 1%;
+
+}
+
+#buscador{
+    margin-right: -15% ;
+    margin-top: 2%;
+    float: right;
+}
+
+
+input {
+    z-index: 999;
+
+    color: rgb(255, 255, 255);
+    background-color:#00000000;
+    border:none;
+    border-bottom:2px solid rgb(255, 255, 255);
+    font-family: BebasNeue-Regular;
+
+    font-size: 30px; 
+    
+}
+
+::placeholder {
+    color: rgb(255, 255, 255);
+
+  }
+
+.icono{
+   color: white;
+}
+
+.userIcon{
+    margin-left: 15px;
+}
+.userIcon:hover{
+    color: #F4C811; 
+}
+
+#carrusel{
+    font-family: CovesLight;
+    font-size: 22px;
+    
+}
+
+.subImagen{
+    width: 30%;
+    margin-bottom: 10% !important;
+}
+.desenfoque{
+    filter: blur(6px);
+}
+
+.subTexto{
+    width: 50%;
+    margin-bottom: 45% !important;
+
+}
+.subSinopsis{
+    margin-bottom: 10% !important; 
+}
+
+.portada{
+    margin-bottom: 0% !important;
+}
+
+#videoPresentacion{
+    width: 100%;
+
+}
+
+
+h2{
+    font-size: 400%;
+    margin-left: 2%;
+    text-align: center;    
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+
+#destacados{
+    margin-bottom: 10%;
+    margin-top: 8%;
+    background-image: url("../img/peliculas/portadas/fondo2.png");
+    background-size: 99%;
+    background-repeat: no-repeat;
+}
+
+.rowPadre{
+    margin-left: 2%;
+
+}
+
+.portada{
+    width: 12%;
+    background-color: black;
+    margin-left: 7%;
+}
+
+
+.oscurecer {
+
+  height: 480px;
+  width: 720px;
+  
+  }
+
+footer{
+    margin-left: 0% !important;
+    margin-right: 0% !important;
+    color: rgb(255, 255, 255);
+
+}
+
+
+footer{
+    display:inline-block;
+    position:relative;
+    }
+    
+footer a{
+    position: absolute;
+    bottom: 7%;
+    left: 5%;
+    }
+
+
+
+.twitter:hover{
+    color: #00acee;
+}
+
+
+
+
+
+
+
+
+
