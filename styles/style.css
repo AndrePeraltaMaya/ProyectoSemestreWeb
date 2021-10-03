@@ -61,8 +61,6 @@
 
 }
 
-
-
 body{
     background-color: #000000;
 
@@ -136,8 +134,9 @@ input {
 }
 
 .tituloPeliculaCarrusel{
-    
+    top:10%;
 }
+
 
 #carrusel{
     font-family: CovesLight;
@@ -171,8 +170,6 @@ input {
 
 #videoPresentacion{
     width: 100%;
-
-
 }
 
 #loMasVisto{
@@ -180,10 +177,19 @@ input {
 
 }
 
+.sinopsis{
+    font-family: CovesLight;
+    width: 50%;
+    font-size: 1.7vw;
+    margin-right: -50%;
+    margin-top: -20%;
+}
+
 h2{
     font-size: 400%;
     margin-left: 2%;
     text-align: center;    
+    font-size: 8vw;
 
 }
 h2 > p{
@@ -234,7 +240,6 @@ h2 > p{
     background-repeat:no-repeat;
     background-size: 100% auto;
     
-
 }
 .numberTop{
     font-size: 25vw;
