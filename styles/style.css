@@ -62,6 +62,7 @@
 }
 
 
+
 body{
     background-color: #000000;
 
@@ -85,7 +86,7 @@ header{
 
 .container{
     position: fixed;
-    z-index: 1;
+    z-index: 2;
     
 }
 
@@ -100,14 +101,13 @@ header{
 }
 
 #buscador{
-    margin-right: -15% ;
+    margin-right: -8% ;
     margin-top: 2%;
     float: right;
 }
 
 
 input {
-    z-index: 999;
 
     color: rgb(255, 255, 255);
     background-color:#00000000;
@@ -135,11 +135,18 @@ input {
     color: #F4C811; 
 }
 
-#carrusel{
-    font-family: CovesLight;
-    font-size: 22px;
+.tituloPeliculaCarrusel{
     
 }
+
+#carrusel{
+    font-family: CovesLight;
+    font-size: 1.7vw;
+    z-index: 99;
+    
+}
+
+
 
 .subImagen{
     width: 30%;
@@ -165,37 +172,93 @@ input {
 #videoPresentacion{
     width: 100%;
 
+
 }
 
+#loMasVisto{
+    margin-top: -3%;
+
+}
 
 h2{
     font-size: 400%;
     margin-left: 2%;
     text-align: center;    
-    margin-bottom: 5%;
-    margin-top: 5%;
+
+}
+h2 > p{
+    padding-top: 6%;
+    padding-bottom: 6%;
+
 }
 
 #destacados{
     margin-bottom: 10%;
     margin-top: 8%;
-    background-image: url("../img/peliculas/portadas/fondo2.png");
-    background-size: 99%;
-    background-repeat: no-repeat;
+}
+
+.topImage{
+    z-index: 1;
+
 }
 
 .rowPadre{
     margin-left: 2%;
+    margin-right: 0% ;
 
 }
 
 .portada{
     width: 12%;
     background-color: black;
-    margin-left: 7%;
+    margin-left: 11%;
+}
+
+.portadaGrande{
+    width: 20%;
+    margin-left: -55%;
+    background-color: black;
+    justify-content: center;
+}
+
+#tituloTop1{
+    width: 40%;
+    margin-left: 55%;
+    margin-top: -54%;
+
 }
 
 
+#topCinco{
+    background-image: url("../img/peliculas/fondos/bladeRunner_fondo.jpg");
+    background-repeat:no-repeat;
+    background-size: 100% auto;
+    
+
+}
+.numberTop{
+    font-size: 25vw;
+    position: absolute;
+    left: -80%;
+    top: -50%;
+}
+
+.numOne{
+    font-size: 42vw;
+    position: absolute;
+    left: -66%;
+    top: -51%;
+    color: #F4C811;
+}
+
+
+/*
+body {
+  heigh:665px;
+  background-repeat: repeat-y;
+  background-size: 10rem;
+}
+*/
 .oscurecer {
 
   height: 480px;
