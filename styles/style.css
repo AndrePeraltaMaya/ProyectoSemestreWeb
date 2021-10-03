@@ -99,7 +99,7 @@ header{
 }
 
 #buscador{
-    margin-right: -8% ;
+    margin-right: -18% ;
     margin-top: 2%;
     float: right;
 }
@@ -181,7 +181,7 @@ input {
     font-family: CovesLight;
     width: 50%;
     font-size: 1.7vw;
-    margin-right: -50%;
+    margin-right: -40%;
     margin-top: -20%;
 }
 
@@ -200,7 +200,7 @@ h2 > p{
 
 #destacados{
     margin-bottom: 10%;
-    margin-top: 8%;
+    margin-top: 15%;
 }
 
 .topImage{
@@ -229,7 +229,7 @@ h2 > p{
 
 #tituloTop1{
     width: 40%;
-    margin-left: 55%;
+    margin-left: 40%;
     margin-top: -54%;
 
 }
@@ -239,7 +239,6 @@ h2 > p{
     background-image: url("../img/peliculas/fondos/bladeRunner_fondo.jpg");
     background-repeat:no-repeat;
     background-size: 100% auto;
-    
 }
 .numberTop{
     font-size: 25vw;
