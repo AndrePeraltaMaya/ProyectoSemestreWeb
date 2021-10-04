@@ -61,6 +61,9 @@
 
 }
 
+*{
+    scroll-behavior: smooth;
+}
 body{
     background-color: #000000;
 
@@ -199,8 +202,8 @@ h2 > p{
 }
 
 #destacados{
-    margin-bottom: 10%;
     margin-top: 15%;
+    padding-bottom: 30%;
 }
 
 .topImage{
@@ -239,6 +242,7 @@ h2 > p{
     background-image: url("../img/peliculas/fondos/bladeRunner_fondo.jpg");
     background-repeat:no-repeat;
     background-size: 100% auto;
+    background-attachment: fixed;
 }
 .numberTop{
     font-size: 25vw;
@@ -255,6 +259,10 @@ h2 > p{
     color: #F4C811;
 }
 
+#videoNoticias{
+    width: 100%;
+    position: static;
+}
 
 /*
 body {
@@ -269,6 +277,52 @@ body {
   width: 720px;
   
   }
+
+
+#noticias{
+    background-image: url("../img/peliculas/tarkovsky/6.gif");
+    background-repeat: no-repeat;
+    background-size: 100% ;
+    background-attachment: fixed;
+
+  position:relative;
+
+}
+
+.centerP{
+    padding-top: 10%;
+    font-size: 4vw;
+    position: inherit;
+
+}
+
+#pantallas{
+    margin-top: 0%;
+    width: 50%;
+
+}
+
+#pantallas2{
+    width: 50%;
+    position: absolute;
+
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: -10% auto;
+
+}
+
+.centerCss{
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+
+.subrayado{
+    color: #F4C811;
+}
 
 footer{
     margin-left: 0% !important;
