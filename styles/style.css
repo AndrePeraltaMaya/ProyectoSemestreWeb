@@ -324,6 +324,29 @@ body {
     color: #F4C811;
 }
 
+
+.contenedor{
+    width: 90%;
+    margin: auto;
+}
+
+/*Contenedor principal y flechas*/
+
+.peliculasRemendadas{
+    margin-bottom: 70px;
+}
+
+.peliculasRemendadas .contenedorPrincipal{
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+
+
+
+
+
 footer{
     margin-left: 0% !important;
     margin-right: 0% !important;
