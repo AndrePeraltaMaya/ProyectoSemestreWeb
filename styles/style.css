@@ -63,6 +63,7 @@
 
 *{
     scroll-behavior: smooth;
+    
 }
 body{
     background-color: #000000;
@@ -326,26 +327,114 @@ body {
 
 
 .contenedor{
-    width: 90%;
+    width: 100%;
     margin: auto;
 }
 
 /*Contenedor principal y flechas*/
 
+.contenedorControles{
+    display:flex;
+    justify-content: space-between;
+    align-items: end;
+}
+.contenedorControles .indicadores button{
+    background: #fff;
+    height:3px;
+    width: 10px;
+    cursor: pointer;
+    border:none;
+    margin-right: 2px;
+}
+
+.contenedorControles .indicadores button:hover,
+.contenedorControles .indicadores button.activo{
+    background: red;
+
+}
+
+/*
 .peliculasRemendadas{
     margin-bottom: 70px;
 }
+*/
+.carruselID{
+    margin: 0 ;
+}
+
 
 .peliculasRemendadas .contenedorPrincipal{
     display: flex;
     align-items: center;
     position: relative;
 }
+.peliculasRemendadas .contenedorPrincipal .flechaDerecha,
+.peliculasRemendadas .contenedorPrincipal .flechaIzquierda{
+    position: absolute;
+    border: none;
+    background:rgb(0,0,0,0.3);
+    font-size:40px;
+    height: 50%;
+    top: calc(50%-25%);
+    line-height:40px;
+    width:50px;
+    color: #fff;
+    cursor: pointer;
+    z-index:500;
+    transition: .2s ease all;
+
+}
+
+.peliculasRemendadas .contenedorPrincipal .flechaIzquierda{
+    left:0;
+}
+
+.peliculasRemendadas .contenedorPrincipal .flechaDerecha:hover,
+.peliculasRemendadas .contenedorPrincipal .flechaIzquierda:hover{
+
+    background:rgb(0,0,0,0.9);
+}
+
+.peliculasRemendadas .contenedorPrincipal .flechaDerecha{
+    right:0;
+}
+
+/*carrusel*/
+.peliculasRemendadas .contenedorCarousel {
+    width: 100%;
+    padding: 30px 0;
+    overflow: hidden; /*QUITAR?*/
+    scroll-behavior: smooth;
+}
+.peliculasRemendadas .contenedorCarousel .carousel {
+
+    display: flex;
+    flex-wrap: nowrap;
+
+}
+
+.peliculasRemendadas .contenedorCarousel .carousel .pelicula{
+
+    min-width: 14.285714285714285714285714285714%;
+    transition: .3s ease all;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, .3);
+
+}
+
+.peliculasRemendadas .contenedorCarousel .carousel .pelicula.hover{
+    /*para que la pelicula se haga más*/
+    transform:scale(1.2);
+    transform-origin: center;
+    z-index: 400;
+
+}
+
+.peliculasRemendadas .contenedorCarousel .carousel .pelicula img{
+    width: 100%;
+    vertical-align: top;
 
 
-
-
-
+}
 
 footer{
     margin-left: 0% !important;
