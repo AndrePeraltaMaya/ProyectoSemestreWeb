@@ -1,47 +1,55 @@
 $(document).ready(function() {
 
     const fila = document.querySelector('.contenedorCarousel');
-    const peliculas = document.querySelectorAll('.pelicula');
     
-    const flechaIzquierda = document.getElementById('flechaIzquierda');
-    const flechaDerecha = document.getElementById('flechaDerecha');
     
     // ? ----- ----- Event Listener para la flecha derecha. ----- -----
-    flechaDerecha.addEventListener('click', () => {
-        fila.scrollLeft += fila.offsetWidth;
-    
-        const indicadorActivo = document.querySelector('.indicadores .activo');
-        if(indicadorActivo.nextSibling){
-            indicadorActivo.nextSibling.classList.add('activo');
-            indicadorActivo.classList.remove('activo');
-        }
-    });
-    
-    // ? ----- ----- Event Listener para la flecha izquierda. ----- -----
-    flechaIzquierda.addEventListener('click', () => {
-        fila.scrollLeft -= fila.offsetWidth;
-    
-        const indicadorActivo = document.querySelector('.indicadores .activo');
-        if(indicadorActivo.previousSibling){
-            indicadorActivo.previousSibling.classList.add('activo');
-            indicadorActivo.classList.remove('activo');
-        }
-    });
-    
+    const flechaDerecha = document.getElementById('flechaDerecha');
 
+    flechaDerecha.addEventListener('click', () => {
+        if(fila.scrollLeft == 2732){
+            fila.scrollLeft = 0; 
+        }else{
+            fila.scrollLeft += fila.offsetWidth;
+
+        }
+        
+    
+    });
+
+    // ? ----- ----- Event Listener para la flecha izquierda. ----- -----
+    const flechaIzquierda = document.getElementById('flechaIzquierda');
+
+    flechaIzquierda.addEventListener('click', () => {
+        if(fila.scrollLeft == 0){
+            fila.scrollLeft = 2732; 
+        }else{
+            fila.scrollLeft -= fila.offsetWidth;
+
+        }
+    });
+    
+    // ? -----------------------------------------------------------------
+
+
+    const peliculas = document.querySelectorAll('.pelicula');
     
     // ? ----- ----- Hover ----- -----
     peliculas.forEach((pelicula) => {
-        pelicula.addEventListener('mouseenter', (e) => {
+        pelicula.addEventListener('mouseover', (e) => {
             const elemento = e.currentTarget;
-            setTimeout(() => {
-                peliculas.forEach(pelicula => pelicula.classList.remove('hover'));
-                elemento.classList.add('hover');
-            }, 300);
+            setTimeout(() => { elemento.classList.add('hover') }, 300);
         });
     });
-    
-    fila.addEventListener('mouseleave', () => {
-        peliculas.forEach(pelicula => pelicula.classList.remove('hover'));
+
+    peliculas.forEach((pelicula) => {
+        pelicula.addEventListener('mouseout', (e) => {
+            const elemento = e.currentTarget;
+            setTimeout(() => { elemento.classList.remove('hover') }, 300);
+        });
     });
+
+
+
+
 });
