@@ -453,6 +453,11 @@ body {
 
 }
 
+#catalogo{
+    background: linear-gradient(to left, rgba(255, 255, 255, 0.089), black);
+}
+
+
 footer{
     margin-left: 0% !important;
     margin-right: 0% !important;
