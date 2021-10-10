@@ -61,6 +61,8 @@
 
 }
 
+::-webkit-scrollbar {display: none;}
+
 *{
     scroll-behavior: smooth;
     
@@ -192,9 +194,8 @@ input {
 
 h2{
     font-size: 400%;
-    margin-left: 2%;
-    text-align: center;    
-    font-size: 8vw;
+    margin-left: 3%;
+    font-size: 6vw;
 
 }
 h2 > p{
@@ -218,7 +219,7 @@ h3 > p{
 
 #destacados{
     margin-top: 15%;
-    padding-bottom: 30%;
+    padding-bottom: 20%;
 }
 
 .topImage{
@@ -305,7 +306,7 @@ body {
 }
 
 .centerP{
-    padding-top: 10%;
+    padding-top: 5%;
     font-size: 4vw;
     position: inherit;
 
@@ -319,13 +320,12 @@ body {
 
 #pantallas2{
     width: 50%;
-    position: absolute;
 
     top: 0;
     left: 0;
     right: 0;
     margin: -10% auto;
-
+    padding-top: 5%;
 }
 
 .centerCss{
@@ -344,6 +344,9 @@ body {
     width: 100%;
     margin: auto;
 }
+
+
+
 
 /*Contenedor principal y flechas*/
 
