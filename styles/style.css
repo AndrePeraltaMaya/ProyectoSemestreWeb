@@ -1,283 +1,252 @@
-@font-face
-{
-   font-family: BebasNeue-Regular;
+@font-face {
+  font-family: BebasNeue-Regular;
 
-   src: url("../fonts/BebasNeue-Regular/BebasNeue-Regular.eot") format("embedded-opentype"),
-        url("../fonts/BebasNeue-Regular/BebasNeue-Regular.woff") format("woff"),
-        url("../fonts/BebasNeue-Regular/BebasNeue-Regular.ttf") format("truetype"),
-        url("../fonts/BebasNeue-Regular/BebasNeue-Regular.svg") format("svg");
-
+  src: url("../fonts/BebasNeue-Regular/BebasNeue-Regular.eot")
+      format("embedded-opentype"),
+    url("../fonts/BebasNeue-Regular/BebasNeue-Regular.woff") format("woff"),
+    url("../fonts/BebasNeue-Regular/BebasNeue-Regular.ttf") format("truetype"),
+    url("../fonts/BebasNeue-Regular/BebasNeue-Regular.svg") format("svg");
 }
 
-@font-face
-{
-   font-family: CovesLight;
+@font-face {
+  font-family: CovesLight;
 
-   src: url("../fonts/CovesLight/CovesLight.eot") format("embedded-opentype"),
-        url("../fonts/CovesLight/CovesLight.woff") format("woff"),
-        url("../fonts/CovesLight/CovesLight.ttf") format("truetype"),
-        url("../fonts/CovesLight/CovesLight.svg") format("svg");
-
+  src: url("../fonts/CovesLight/CovesLight.eot") format("embedded-opentype"),
+    url("../fonts/CovesLight/CovesLight.woff") format("woff"),
+    url("../fonts/CovesLight/CovesLight.ttf") format("truetype"),
+    url("../fonts/CovesLight/CovesLight.svg") format("svg");
 }
 
-@font-face
-{
-   font-family: Arnold-Thin;
+@font-face {
+  font-family: Arnold-Thin;
 
-   src: url("../fonts/Arnold-Thin/Arnold-Thin.eot") format("embedded-opentype"),
-        url("../fonts/Arnold-Thin/Arnold-Thin.woff") format("woff"),
-        url("../fonts/Arnold-Thin/Arnold-Thin.ttf") format("truetype"),
-        url("../fonts/Arnold-Thin/Arnold-Thin.svg") format("svg");
-
+  src: url("../fonts/Arnold-Thin/Arnold-Thin.eot") format("embedded-opentype"),
+    url("../fonts/Arnold-Thin/Arnold-Thin.woff") format("woff"),
+    url("../fonts/Arnold-Thin/Arnold-Thin.ttf") format("truetype"),
+    url("../fonts/Arnold-Thin/Arnold-Thin.svg") format("svg");
 }
-@font-face
-{
-   font-family: Iconic-Light-trial;
+@font-face {
+  font-family: Iconic-Light-trial;
 
-   src: url("../fonts/Iconic-Light-trial/Iconic-Light-trial.eot") format("embedded-opentype"),
-        url("../fonts/Iconic-Light-trial/Iconic-Light-trial.woff") format("woff"),
-        url("../fonts/Iconic-Light-trial/Iconic-Light-trial.ttf") format("truetype"),
-        url("../fonts/Iconic-Light-trial/Iconic-Light-trial.svg") format("svg");
-
+  src: url("../fonts/Iconic-Light-trial/Iconic-Light-trial.eot")
+      format("embedded-opentype"),
+    url("../fonts/Iconic-Light-trial/Iconic-Light-trial.woff") format("woff"),
+    url("../fonts/Iconic-Light-trial/Iconic-Light-trial.ttf") format("truetype"),
+    url("../fonts/Iconic-Light-trial/Iconic-Light-trial.svg") format("svg");
 }
-@font-face
-{
-   font-family: CovesBold;
+@font-face {
+  font-family: CovesBold;
 
-   src: url("../fonts/CovesBold/CovesBold.eot") format("embedded-opentype"),
-        url("../fonts/CovesBold/CovesBold.woff") format("woff"),
-        url("../fonts/CovesBold/CovesBold.ttf") format("truetype"),
-        url("../fonts/CovesBold/CovesBold.svg") format("svg");
-
+  src: url("../fonts/CovesBold/CovesBold.eot") format("embedded-opentype"),
+    url("../fonts/CovesBold/CovesBold.woff") format("woff"),
+    url("../fonts/CovesBold/CovesBold.ttf") format("truetype"),
+    url("../fonts/CovesBold/CovesBold.svg") format("svg");
 }
-@font-face
-{
-   font-family: SlimJoe;
+@font-face {
+  font-family: SlimJoe;
 
-   src: url("../fonts/SlimJoe/SlimJoe.eot") format("embedded-opentype"),
-        url("../fonts/SlimJoe/SlimJoe.woff") format("woff"),
-        url("../fonts/SlimJoe/SlimJoe.ttf") format("truetype"),
-        url("../fonts/SlimJoe/SlimJoe.svg") format("svg");
-
+  src: url("../fonts/SlimJoe/SlimJoe.eot") format("embedded-opentype"),
+    url("../fonts/SlimJoe/SlimJoe.woff") format("woff"),
+    url("../fonts/SlimJoe/SlimJoe.ttf") format("truetype"),
+    url("../fonts/SlimJoe/SlimJoe.svg") format("svg");
 }
 
-::-webkit-scrollbar {display: none;}
-
-*{
-    scroll-behavior: smooth;
-    
-}
-body{
-    background-color: #000000;
-
-    margin: 0;
+.separador {
+  margin: 0;
 }
 
-main{
-    margin: 0 auto;
-    font-family: BebasNeue-Regular;
-    color: rgb(255, 255, 255);
+::-webkit-scrollbar {
+  display: none;
 }
 
+* {
+  scroll-behavior: smooth;
+}
+body {
+  background-color: #000000;
 
-
-header{
-    font-family: BebasNeue-Regular;
-
+  margin: 0;
 }
 
-
-
-.container{
-    position: fixed;
-    z-index: 2;
-    
+main {
+  margin: 0 auto;
+  font-family: BebasNeue-Regular;
+  color: rgb(255, 255, 255);
 }
 
-#logo{
-    margin-left: 4.58333% ;
-    
-}
-#imgLogo{
-    width: 25%;
-    margin-top: 1%;
-
+header {
+  font-family: BebasNeue-Regular;
 }
 
-#buscador{
-    
-    margin-right: -18% ;
-    margin-top: 2%;
-    float: right;
+.container {
+  position: fixed;
+  z-index: 2;
 }
 
+#logo {
+  margin-left: 4.58333%;
+}
+#imgLogo {
+  width: 25%;
+  margin-top: 1%;
+}
+
+#buscador {
+  margin-right: -18%;
+  margin-top: 2%;
+  float: right;
+}
 
 input {
+  color: #f4c811;
+  background-color: #00000000;
+  border: none;
+  border-bottom: 2px solid rgb(255, 255, 255);
+  font-family: BebasNeue-Regular;
 
-    color:#F4C811;
-    background-color:#00000000;
-    border:none;
-    border-bottom:2px solid rgb(255, 255, 255);
-    font-family: BebasNeue-Regular;
-
-    font-size: 30px; 
-    
+  font-size: 30px;
 }
 
 ::placeholder {
-    color: rgb(255, 255, 255);
-
-  }
-
-.icono{
-   color: white;
+  color: rgb(255, 255, 255);
 }
 
-.userIcon{
-    margin-left: 15px;
-}
-.userIcon:hover{
-    color: #F4C811; 
+.icono {
+  color: white;
 }
 
-.tituloPeliculaCarrusel{
-    top:10%;
+.userIcon {
+  margin-left: 15px;
+}
+.userIcon:hover {
+  color: #f4c811;
 }
 
-
-#carrusel{
-    font-family: CovesLight;
-    font-size: 1.7vw;
-    z-index: 99;
-    
+.tituloPeliculaCarrusel {
+  top: 10%;
 }
 
-
-
-.subImagen{
-    width: 30%;
-    margin-bottom: 10% !important;
-}
-.desenfoque{
-    filter: blur(6px);
+#carrusel {
+  font-family: CovesLight;
+  font-size: 1.7vw;
+  z-index: 99;
 }
 
-.subTexto{
-    width: 50%;
-    margin-bottom: 45% !important;
-
+.subImagen {
+  width: 30%;
+  margin-bottom: 10% !important;
 }
-.subSinopsis{
-    margin-bottom: 10% !important; 
-}
-
-.portada{
-    margin-bottom: 0% !important;
+.desenfoque {
+  filter: blur(6px);
 }
 
-#videoPresentacion{
-    width: 100%;
+.subTexto {
+  width: 50%;
+  margin-bottom: 45% !important;
+}
+.subSinopsis {
+  margin-bottom: 10% !important;
 }
 
-#loMasVisto{
-    margin-top: -3%;
-
+.portada {
+  margin-bottom: 0% !important;
 }
 
-.sinopsis{
-    font-family: CovesLight;
-    width: 50%;
-    font-size: 1.7vw;
-    margin-right: -40%;
-    margin-top: -20%;
+#videoPresentacion {
+  width: 100%;
+  margin-bottom: -0.5%;
 }
 
-h2{
-    font-size: 400%;
-    margin-left: 3%;
-    font-size: 6vw;
-
-}
-h2 > p{
-    padding-top: 6%;
-    padding-bottom: 6%;
-
+#loMasVisto {
+  margin-top: -3%;
 }
 
-h3{
-    font-size: 200%;
-    margin-left: 5%;
-    font-size: 4vw;
-
+.sinopsis {
+  font-family: CovesLight;
+  width: 50%;
+  font-size: 1.7vw;
+  margin-right: -40%;
+  margin-top: -20%;
 }
 
-h3 > p{
-    color:#F4C811;
-    padding-top: 2%;
-
+h2 {
+  font-size: 400%;
+  margin-left: 3%;
+  font-size: 6vw;
+}
+h2 > p {
+  padding-top: 6%;
+  padding-bottom: 6%;
 }
 
-#destacados{
-    margin-top: 15%;
-    padding-bottom: 20%;
+h3 {
+  font-size: 200%;
+  margin-left: 5%;
+  font-size: 4vw;
 }
 
-.topImage{
-    z-index: 1;
-
+h3 > p {
+  color: #f4c811;
+  padding-top: 2%;
 }
 
-.rowPadre{
-    margin-left: 2%;
-    margin-right: 0% ;
-
+#destacados {
+  margin-top: 15%;
+  padding-bottom: 11%;
 }
 
-.portada{
-    width: 12%;
-    background-color: black;
-    margin-left: 11%;
+.topImage {
+  z-index: 1;
 }
 
-.portadaGrande{
-    width: 20%;
-    margin-left: -55%;
-    background-color: black;
-    justify-content: center;
+.rowPadre {
+  margin-left: 2%;
+  margin-right: 0%;
 }
 
-#tituloTop1{
-    width: 40%;
-    margin-left: 40%;
-    margin-top: -54%;
-
+.portada {
+  width: 12%;
+  background-color: black;
+  margin-left: 11%;
 }
 
-
-#topCinco{
-    background-image: url("../img/peliculas/fondos/bladeRunner_fondo.jpg");
-    background-repeat:no-repeat;
-    background-size: 100% auto;
-    background-attachment: fixed;
-}
-.numberTop{
-    font-size: 25vw;
-    position: absolute;
-    left: -80%;
-    top: -50%;
+.portadaGrande {
+  width: 20%;
+  margin-left: -55%;
+  background-color: black;
+  justify-content: center;
 }
 
-.numOne{
-    font-size: 42vw;
-    position: absolute;
-    left: -66%;
-    top: -51%;
-    color: #F4C811;
+#tituloTop1 {
+  width: 40%;
+  margin-left: 40%;
+  margin-top: -54%;
 }
 
-#videoNoticias{
-    width: 100%;
-    position: static;
+#topCinco {
+  background-image: url("../img/peliculas/fondos/bladeRunner_fondo.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-attachment: fixed;
+}
+.numberTop {
+  font-size: 25vw;
+  position: absolute;
+  left: -80%;
+  top: -50%;
+}
+
+.numOne {
+  font-size: 42vw;
+  position: absolute;
+  left: -66%;
+  top: -51%;
+  color: #f4c811;
+}
+
+#videoNoticias {
+  width: 100%;
+  position: static;
 }
 
 /*
@@ -288,86 +257,75 @@ body {
 }
 */
 .oscurecer {
-
   height: 480px;
   width: 720px;
-  
-  }
-
-
-#noticias{
-    background-image: url("../img/peliculas/tarkovsky/6.gif");
-    background-repeat: no-repeat;
-    background-size: 100% ;
-    background-attachment: fixed;
-
-  position:relative;
-
 }
 
-.centerP{
-    padding-top: 5%;
-    font-size: 4vw;
-    position: inherit;
+#noticias {
+  background-image: url("../img/peliculas/tarkovsky/6.gif");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-attachment: fixed;
 
+  position: relative;
 }
 
-#pantallas{
-    margin-top: 0%;
-    width: 50%;
-
+.centerP {
+  padding-top: 5%;
+  font-size: 4vw;
+  position: inherit;
 }
 
-#pantallas2{
-    width: 50%;
-
-    top: 0;
-    left: 0;
-    right: 0;
-    margin: -10% auto;
-    padding-top: 5%;
+#pantallas {
+  margin-top: 0%;
+  width: 50%;
 }
 
-.centerCss{
-    top: 0;
-    left: 0;
-    right: 0;
-    margin: 0 auto;
+#pantallas2 {
+  width: 50%;
+
+  top: 0;
+  left: 0;
+  right: 0;
+  margin: -10% auto;
+  padding-top: 17%;
 }
 
-.subrayado{
-    color: #F4C811;
+.centerCss {
+  top: 0;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
 }
 
-
-.contenedor{
-    width: 100%;
-    margin: auto;
+.subrayado {
+  color: #f4c811;
 }
 
-
-
+.contenedor {
+  width: 100%;
+  margin: auto;
+}
 
 /*Contenedor principal y flechas*/
 
-.contenedorControles{
-    display:flex;
-    justify-content: space-between;
-    align-items: end;
+.contenedorControles {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
 }
-.contenedorControles .indicadores button{
-    background: #fff;
-    height:3px;
-    width: 10px;
-    cursor: pointer;
-    border:none;
-    margin-right: 2px;
+.contenedorControles .indicadores button {
+  background: #fff;
+  height: 3px;
+  width: 10px;
+  cursor: pointer;
+  border: none;
+  margin-right: 2px;
 }
 
 .contenedorControles .indicadores button:hover,
-.contenedorControles .indicadores button.activo{
-    background: red;
-
+.contenedorControles .indicadores button.activo {
+  background: red;
 }
 
 /*
@@ -375,123 +333,100 @@ body {
     margin-bottom: 70px;
 }
 */
-.carruselID{
-    margin: 0 ;
+.carruselID {
+  margin: 0;
 }
 
-
-.peliculasRemendadas .contenedorPrincipal{
-    display: flex;
-    align-items: center;
-    position: relative;
+.peliculasRemendadas .contenedorPrincipal {
+  display: flex;
+  align-items: center;
+  position: relative;
 }
 .peliculasRemendadas .contenedorPrincipal .flechaDerecha,
-.peliculasRemendadas .contenedorPrincipal .flechaIzquierda{
-    position: absolute;
-    border: none;
-    background:rgb(0,0,0,0.3);
-    font-size:40px;
-    height: 50%;
-    top: calc(50%-25%);
-    line-height:40px;
-    width:50px;
-    color: #fff;
-    cursor: pointer;
-    z-index:500;
-    transition: .2s ease all;
-
+.peliculasRemendadas .contenedorPrincipal .flechaIzquierda {
+  position: absolute;
+  border: none;
+  background: rgb(0, 0, 0, 0.3);
+  font-size: 40px;
+  height: 50%;
+  top: calc(50%-25%);
+  line-height: 40px;
+  width: 50px;
+  color: #fff;
+  cursor: pointer;
+  z-index: 500;
+  transition: 0.2s ease all;
 }
 
-.peliculasRemendadas .contenedorPrincipal .flechaIzquierda{
-    left:0;
+.peliculasRemendadas .contenedorPrincipal .flechaIzquierda {
+  left: 0;
 }
 
 .peliculasRemendadas .contenedorPrincipal .flechaDerecha:hover,
-.peliculasRemendadas .contenedorPrincipal .flechaIzquierda:hover{
-
-    background:rgb(0,0,0,0.9);
+.peliculasRemendadas .contenedorPrincipal .flechaIzquierda:hover {
+  background: rgb(0, 0, 0, 0.9);
 }
 
-.peliculasRemendadas .contenedorPrincipal .flechaDerecha{
-    right:0;
+.peliculasRemendadas .contenedorPrincipal .flechaDerecha {
+  right: 0;
 }
 
 /*carrusel*/
 .peliculasRemendadas .contenedorCarousel {
-    width: 100%;
-    padding: 30px 0;
-    overflow: hidden; /*QUITAR?*/
-    scroll-behavior: smooth;
+  width: 100%;
+  padding: 30px 0;
+  overflow: hidden; /*QUITAR?*/
+  scroll-behavior: smooth;
 }
 .peliculasRemendadas .contenedorCarousel .carousel {
-
-    display: flex;
-    flex-wrap: nowrap;
-
+  display: flex;
+  flex-wrap: nowrap;
 }
 
-.peliculasRemendadas .contenedorCarousel .carousel .pelicula{
-
-    min-width: 14.285714285714285714285714285714%;
-    transition: .3s ease all;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, .3);
-
+.peliculasRemendadas .contenedorCarousel .carousel .pelicula {
+  min-width: 14.285714285714285714285714285714%;
+  transition: 0.3s ease all;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
 }
 
-.peliculasRemendadas .contenedorCarousel .carousel .pelicula.hover{
-    /*para que la pelicula se haga más*/
-    transform:scale(1.2);
-    transform-origin: center;
-    z-index: 400;
-
+.peliculasRemendadas .contenedorCarousel .carousel .pelicula.hover {
+  /*para que la pelicula se haga más*/
+  transform: scale(1.2);
+  transform-origin: center;
+  z-index: 400;
 }
 
-.peliculasRemendadas .contenedorCarousel .carousel .pelicula img{
-    width: 100%;
-    vertical-align: top;
-
-
+.peliculasRemendadas .contenedorCarousel .carousel .pelicula img {
+  width: 100%;
+  vertical-align: top;
 }
 
-#catalogo{
-    background: linear-gradient(to left, rgba(255, 255, 255, 0.089), black);
+#catalogo {
+  background: linear-gradient(to left, rgba(255, 255, 255, 0.089), black);
 }
 
-
-footer{
-    padding-top: 10%;
-    padding-bottom: 10%;
-    color: rgb(255, 255, 255);
-
+footer {
+  padding-top: 10%;
+  padding-bottom: 10%;
+  color: rgb(255, 255, 255);
 }
 
-footer img{
-    margin-left: 5%;
+footer img {
+  margin-left: 5%;
 }
 
+footer {
+  display: inline-block;
+  position: relative;
+}
 
-footer{
-    display:inline-block;
-    position:relative;
-    }
-    
-footer a{
-    position: absolute;
-    bottom: 7%;
-    left: 5%;
-    }
-
-
-
-.twitter:hover{
+footer a {
+  position: absolute;
+  bottom: 60%;
+  left: 120%;
+}
+footer a:hover {
     color: #00acee;
+
 }
-
-
-
-
-
-
-
-
 
