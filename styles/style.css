@@ -103,6 +103,7 @@ header{
 }
 
 #buscador{
+    
     margin-right: -18% ;
     margin-top: 2%;
     float: right;
@@ -111,7 +112,7 @@ header{
 
 input {
 
-    color: rgb(255, 255, 255);
+    color:#F4C811;
     background-color:#00000000;
     border:none;
     border-bottom:2px solid rgb(255, 255, 255);
@@ -199,6 +200,19 @@ h2{
 h2 > p{
     padding-top: 6%;
     padding-bottom: 6%;
+
+}
+
+h3{
+    font-size: 200%;
+    margin-left: 5%;
+    font-size: 4vw;
+
+}
+
+h3 > p{
+    color:#F4C811;
+    padding-top: 2%;
 
 }
 
