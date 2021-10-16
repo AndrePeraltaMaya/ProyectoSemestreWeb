@@ -1,0 +1,14 @@
+#sinopsis{
+  background-image: url("../img/sinopsis/midsommar/midsommarFondo.jpeg");
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-attachment: fixed;
+  
+
+}
+
+.portadaSinopsis{
+  filter: blur(0) !important;
+  width: 30%;
+  padding: 5%;
+}
