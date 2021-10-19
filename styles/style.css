@@ -405,10 +405,16 @@ body {
   background: linear-gradient(to left, rgba(255, 255, 255, 0.089), black);
 }
 
+footer ul {
+  list-style: none;
+}
+
+
 footer {
-  padding-top: 10%;
+  padding-top: 5%;
   padding-bottom: 10%;
   color: rgb(255, 255, 255);
+  margin-left: 10%;
 }
 
 footer img {
@@ -420,13 +426,36 @@ footer {
   position: relative;
 }
 
-footer a {
+footer #twitter,#facebook,#instagram ,#youtub{
   position: absolute;
-  bottom: 60%;
-  left: 120%;
+  bottom: 63%;
+  left: 60%;    
 }
-footer a:hover {
+#facebook{
+  left: 70%;
+}
+#instagram{
+  left: 80%;
+}
+
+#youtub{
+  left: 90%;
+}
+
+footer #twitter:hover {
     color: #00acee;
-
 }
 
+footer #facebook:hover {
+  color: #3b58989a;
+}
+footer #instagram:hover {
+  color: rgba(255, 255, 255, 0.699);
+}
+footer #youtub:hover {
+  color: #c4302bb0;
+}
+
+#footerLinks a{
+  color:#f4c811;
+}
