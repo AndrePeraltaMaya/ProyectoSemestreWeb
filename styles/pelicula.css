@@ -8,6 +8,25 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+@font-face {
+  font-family: BebasNeue-Regular;
+
+    src: url("../fonts/BebasNeue-Regular/BebasNeue-Regular.eot") format("embedded-opentype"),
+    url("../fonts/BebasNeue-Regular/BebasNeue-Regular.woff") format("woff"),
+    url("../fonts/BebasNeue-Regular/BebasNeue-Regular.ttf") format("truetype"),
+    url("../fonts/BebasNeue-Regular/BebasNeue-Regular.svg") format("svg");
+}
+@font-face {
+  font-family: CovesLight;
+
+  src: url("../fonts/CovesLight/CovesLight.eot") format("embedded-opentype"),
+    url("../fonts/CovesLight/CovesLight.woff") format("woff"),
+    url("../fonts/CovesLight/CovesLight.ttf") format("truetype"),
+    url("../fonts/CovesLight/CovesLight.svg") format("svg");
+}
+
+
+
 body {
   font-family: "Open Sans", sans-serif;
   background-color: #040404;
@@ -207,8 +226,8 @@ h1, h2, h3, h4, h5, h6 {
   align-items: center;
   justify-content: space-between;
   padding: 0;
-  font-family: "Poppins", sans-serif;
-  font-size: 16px;
+  font-family: BebasNeue-Regular;
+  font-size: 30px;
   font-weight: 400;
   color: rgba(255, 255, 255, 0.7);
   white-space: nowrap;
@@ -364,7 +383,7 @@ section .container {
   width: 120px;
   height: 1px;
   display: inline-block;
-  background: #4ceb95;
+  background: #f4c811;
   margin: 4px 10px;
 }
 
@@ -729,7 +748,7 @@ section .container {
 }
 
 .services .icon-box:hover .icon::before {
-  background: #35e888;
+  background: #f4c811;
 }
 
 .services .icon-box:hover h4 a, .services .icon-box:hover p {
@@ -868,7 +887,7 @@ section .container {
 }
 
 .portfolio .portfolio-wrap .portfolio-links a:hover {
-  color: #63eda3;
+  color: #f4c811;
 }
 
 .portfolio .portfolio-wrap:hover::before {
@@ -1111,7 +1130,7 @@ section .container {
 }
 
 .contact .php-email-form button[type="submit"]:hover {
-  background: #15bb62;
+  background: #f4c811;
 }
 
 @-webkit-keyframes animate-loading {

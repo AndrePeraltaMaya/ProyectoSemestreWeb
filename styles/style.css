@@ -50,6 +50,14 @@
     url("../fonts/SlimJoe/SlimJoe.ttf") format("truetype"),
     url("../fonts/SlimJoe/SlimJoe.svg") format("svg");
 }
+#cinta{
+  position: absolute;
+  top: 0;
+  left: 10%;
+  color:#f4c811;
+  z-index: 1;
+}
+
 
 .separador {
   margin: 0;
@@ -406,6 +414,7 @@ body {
 }
 
 footer ul {
+  margin-left: 15%;
   list-style: none;
 }
 
@@ -414,12 +423,9 @@ footer {
   padding-top: 5%;
   padding-bottom: 10%;
   color: rgb(255, 255, 255);
-  margin-left: 10%;
+  padding-left: 10%;
 }
 
-footer img {
-  margin-left: 5%;
-}
 
 footer {
   display: inline-block;
@@ -429,17 +435,17 @@ footer {
 footer #twitter,#facebook,#instagram ,#youtub{
   position: absolute;
   bottom: 63%;
-  left: 60%;    
+  left: 55%;    
 }
 #facebook{
-  left: 70%;
+  left: 65%;
 }
 #instagram{
-  left: 80%;
+  left: 75%;
 }
 
 #youtub{
-  left: 90%;
+  left: 85%;
 }
 
 footer #twitter:hover {
@@ -458,4 +464,5 @@ footer #youtub:hover {
 
 #footerLinks a{
   color:#f4c811;
+  
 }
